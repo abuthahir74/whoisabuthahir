@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><a href="index.html">My Blog</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to My Blog</h2>
+            <p>Sharing thoughts, experiences, and stories from my journey</p>
+        </section>
+
+        <section class="blog-posts">
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="images/blog-post1.jpg" alt="First Blog Post">
+                </div>
+                <div class="post-content">
+                    <h3><a href="posts/post1.html">My First Blog Post</a></h3>
+                    <p class="post-meta">Published on March 15, 2024</p>
+                    <p>This is my very first blog post where I share my journey into blogging and what you can expect from this space...</p>
+                    <a href="posts/post1.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="images/blog-post2.jpg" alt="Web Development">
+                </div>
+                <div class="post-content">
+                    <h3><a href="posts/post2.html">Learning Web Development</a></h3>
+                    <p class="post-meta">Published on March 10, 2024</p>
+                    <p>My experience learning HTML, CSS, and JavaScript as a beginner and the resources that helped me most...</p>
+                    <a href="posts/post2.html" class="read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post-card">
+                <div class="post-image">
+                    <img src="images/blog-post3.jpg" alt="Travel Experience">
+                </div>
+                <div class="post-content">
+                    <h3><a href="posts/post3.html">My Travel Adventures</a></h3>
+                    <p class="post-meta">Published on March 5, 2024</p>
+                    <p>Sharing some of my most memorable travel experiences and tips for budget traveling...</p>
+                    <a href="posts/post3.html" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
