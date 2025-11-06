@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Personal Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1><a href="index.html">My Blog</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm [Your Name], a passionate writer and developer who loves sharing experiences and knowledge through this blog.</p>
+                    <p>This blog is my personal space where I write about technology, travel, personal development, and whatever interests me at the moment.</p>
+                    <p>When I'm not writing or coding, you can find me reading books, exploring new places, or experimenting with photography.</p>
+                    
+                    <h3>Skills & Interests</h3>
+                    <ul class="skills-list">
+                        <li>Web Development</li>
+                        <li>Creative Writing</li>
+                        <li>Photography</li>
+                        <li>Travel</li>
+                        <li>Technology</li>
+                    </ul>
+                    
+                    <h3>Contact Me</h3>
+                    <p>Feel free to reach out to me at: <strong>your.email@example.com</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
